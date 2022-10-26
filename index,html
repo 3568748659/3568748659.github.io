@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>hello world!</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- 扩展对低版本IE支持,开启IE兼容模式-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <!--视口/视觉窗口标签:meta, 宽度=设备宽度，初始化缩放比例1， 是否允许用户缩放页面:no -->
+   
+</head>
+
+<body  style="background-color:rgb(230,180,200)">
+<p>你被骗了</p>
+
+<img src="C:\Users\hello\Desktop\A图片！！！！！\微信图片_20220909173202.jpg">
+
+<button id="btn" style="background-color:rgb(230,180,200);">haa</button>
+</body>
+
+
+<script>
+	let btn = document.getElementById("btn")
+	btn.onclick = function(){
+	 alert("haha")
+ 
+	}
+</script>
+</html>
